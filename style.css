@@ -1,0 +1,9 @@
+body {
+	background-color: darkgrey;
+}
+
+.content {
+	text-decoration: underline;
+	font-size: 26px;
+	font-family: 'Courier New', Courier, monospace;
+}
