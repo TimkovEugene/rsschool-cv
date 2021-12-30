@@ -4,122 +4,104 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 	<title>CV Timkov Eugene</title>
 </head>
 <body>
 	<div class="wrapper">
 		<header class="header">
-				<div class="container">
-					<ul>
-						<li>
-							<a href="#profile">profile</a>
-						</li>
-						<li>
-							<a href="#contacts">contacts</a>
-						</li>
-						<li>
-							<a href="#summary">summary</a>
-						</li>
-						<li>
-							<a href="#skills">skills</a>
-						</li>
-						<li>
-							<a href="#code">code</a>
-						</li>
-						<li>
-							<a href="#projects">projects</a>
-						</li>
-						<li>
-							<a href="#education">education</a>
-						</li>
-						<li>
-							<a href="#language">language</a>
-						</li>
+			<div class="container">
+				<nav class="nav">
+					<ul class="nav-list">
+						<li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+						<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+						<li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+						<li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+						<li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+						<li class="nav-item"><a href="#experience" class="nav-link">Courses</a></li>
+						<li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
 					</ul>
-				</div>
+				 </nav>
+			</div>
 		</header>
-		<main class="main-container">
-<div class="container">
-	<div class="column-left">
-					<section id="profile" class="section-profile">
-						<h1>Timkov Eugene</h1>
-						<figure class="photo">
-							<img src="cv-photo.jpg" alt="cv-photo">
-						</figure>
-					</section>
-					<section id="contacts" class="section-contacts">
-						<h2>Contacts</h2>
-						<ul>
-							<li>e-mail: timkoveugene@gmail.com</li>
-							<li>discord: U-gene#8542</li>
-						</ul>
-					</section>
-					<section id="skills" class="section-skills">
-						<h2>Skills:</h2>
-						<ol>
-							<li>HTML</li>
-							<li>CSS (SCSS, BEM, Bootstrap 5)</li>
-							<li>Git (GitBush)</li>
-							<li>Photoshop, Figma, Marsy</li>
-						</ol>
-					</section>
-					<section id="language" class="section-language">
-						<h2>Language:</h2>
-						<ul>
-							<li>Eanglish: A2 (EPAM training center)</li>
-						</ul>
-					</section>
-	</div>
-	<div class="column-right">
-					<section id="summary" class="section-summary">
-						<h2>Summary:</h2>
-						<p>I have been working with CAD programs for ten years. I work at PC all the time. I have to write code in ".lin" to create new linetypes and fills.</p>
-			
+		<main class="main-conteiner">
+			<div class="container">
+				<div class="columns">
+					<div class="column-left">
+						<section class="profile">
+							<figure class="cv-photo">
+								<img src="cv-photo.jpg" alt="my-photo">
+							</figure>
+							<h1 class="name">Timkov Eugene</h1>
+						</section>
+						<section id="contacts" class="contacts">
+							<ul>
+								<li>Cheboksary</li>
+								<li>e-mail: timkoveugene@gmail.com</li>
+								<li>discord: U-gene#8542</li>
+							</ul>
+						</section>
+						<section id="skills" class="skills">
+							<ol>
+								<li>HTML</li>
+								<li>CSS (SCSS, BEM, Bootstrap 5)</li>
+								<li>Git (GitBush)</li>
+								<li>Photoshop, Figma, Marsy</li>
+							</ol>
+						</section>
+						<section id="languages" class="languages">
+							<p class="languages-content">A2 (EPAM training center)</p>
+						</section>
+					</div>
+					<div class="column-right">
+						<section id="summary" class="summary">
+							<p>I have been working with CAD programs for ten years. I work at PC all the time. I have to write code in ".lin" to create new linetypes and fills.</p>
 							<p>Two years ago, I got interested in web and mobile development.</p>
-							
 							<p>
 								Work always takes a long time.
 								It's hard to force yourself to study. The motivation is higher in the team. Because I hope that at RSschool I will be able to become the real developer.
 							</p>
-					</section>
-					<section id="education" class="section-education">
-						<h2>Courses:</h2>
-						<ul>
-							<li>Udemy (The Complete 2022 Web Development Bootcamp)</li>
-							<li>FreeCodeCamp (html, css)</li>
-							<li>learn.javascript.ru</li>
-						</ul>
-					</section>
-					<section id="code" class="section-code">
-						<h2>Code:</h2>
-						<pre>
-							<code>
-								function multiply(a, b) {
-								return a * b;
-								}
-							</code>
-						</pre>
-					</section>
-					<section id="projects" class="section-projects">
-						<h2>Projects:</h2>
-						<ul>
-							<li>CV#1. Markdown & Git</li>
-						</ul>
-					</section>
-	</div>
-</div>
+						</section>
+						<section id="education" class="education">
+							<div class="education-title">Courses:</div>
+							<ul class="education-list">
+								<li class="education-list-item">Udemy (The Complete 2022 Web Development Bootcamp)</li>
+								<li class="education-list-item">FreeCodeCamp (html, css)</li>
+								<li class="education-list-item">learn.javascript.ru</li>
+							</ul>
+						</section>
+						<section id="experience" class="experience">
+							<p class="experience">CV#1. Markdown & Git</p>
+						</section>
+						<section id="code" class="code">
+							<pre>
+								<code>
+									function multiply(a, b) {
+										return a * b;
+									 }
+								</code>
+							</pre>
+						</section>
+					</div>
+				</div>
+			</div>
 		</main>
 		<footer class="footer">
 			<div class="container">
-				<div class="footer-logo">
-					<img src="" alt="">
-				</div>
-				<div class="footer-text">
-	ЭТо фунтер
+				<div class="footer-row">
+					<figure class="footer-row-logo">
+						<img src="rs_school_js.svg" alt="rsschool-logo">
+					</figure>
+					<div class="footer-row-text">© 2021</div>
+					<div class="footer-row-link">
+						<a href="https://github.com/TimkovEugene/rsschool-cv/tree/rsschool-cv-html">@timkoveugene</a>
+					</div>
 				</div>
 			</div>
 		</footer>
-</div>
+	</div>
 </body>
 </html>
