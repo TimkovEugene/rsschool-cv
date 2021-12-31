@@ -33,8 +33,7 @@ body {
 	max-width: 960px;
 	margin: 0 auto;
 }
-.nav {
-}
+
 .nav-list {
 	display: flex;
 	justify-content: flex-end;
@@ -52,8 +51,7 @@ body {
 	color: #2F4F4F;
 	text-decoration: none;
 }
-.main-conteiner .container {
-}
+
 .columns {
 	display: flex;
 
@@ -62,45 +60,64 @@ body {
 	
 	flex-basis: auto;
 	background-color: #C9F76F;
-	padding: 0 0 0 25px;
+	padding: 0 20px 0 20px;
 }
+
 .profile {
+	text-align: center;
+	padding: 0 0 20px 0;
 }
+
 .cv-photo img { width: 250px;
+	
 }
-.name {
-}
+
 .contacts {
-	padding: 0 20px;
+	padding: 0 20px 20px;
 }
+
 .skills {
-	padding: 0 20px;
+	padding: 0 20px 20px;
 }
+
 .languages {
-	padding: 0 20px;
+	padding: 0 20px 20px;
 }
+
 .languages-content {
 }
+
 .column-right {
 	flex-basis: auto;
-	padding: 0 0 0 25px;
+	padding: 0 25px 0 45px;
 	margin: 0 auto;
 }
+
+.summary h3 {
+	margin: 20px 20px 10px;
+}
+
 .summary p {
 	flex-wrap: wrap;
 }
-.education {
+
+.education h3 {
+	margin: 20px 20px 10px;
 }
-.education-title {
+
+
+.experience h3 {
+	margin: 20px 20px 10px;
 }
-.education-list {
+
+.code h3 {
+	margin: 20px 20px 10px;
 }
-.education-list-item {
+
+pre {
+	white-space: nowrap;
 }
-.experience {
-}
-.code {
-}
+
 .footer {
 	flex: 0 0 auto;
 }
@@ -114,13 +131,19 @@ body {
 	display: flex;
 	justify-content: space-between;
 	padding: 25px;
+	align-items: center;
 }
-.footer-row-logo {
-}
+
 .footer-row-logo img {
 	width: 100px;
 }
-.footer-row-text {
+
+.footer-row-link a {
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
 }
-.footer-row-link {
+
+.footer-row-link img {
+	width: 50px;
 }
