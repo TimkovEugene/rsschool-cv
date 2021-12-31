@@ -26,10 +26,11 @@ body {
 	
 }
 .header .container {
+	background-color: #C9F76F;
 	border-bottom: 1px solid #8B4513;
 }
 .container {
-	max-width: 1180px;
+	max-width: 960px;
 	margin: 0 auto;
 }
 .nav {
@@ -42,12 +43,16 @@ body {
 	margin: 25px 0 25px 25px;
 	list-style: none;
 }
+
+.nav-item:last-child {
+	margin: 25px;
+}
+
 .nav-link {
 	color: #2F4F4F;
 	text-decoration: none;
 }
-.main-conteiner {
-	flex: 0 1 auto;
+.main-conteiner .container {
 }
 .columns {
 	display: flex;
@@ -55,8 +60,8 @@ body {
 }
 .column-left {
 	
-	flex: 0 1 40%;
-	background-color: #DAA520;
+	flex-basis: auto;
+	background-color: #C9F76F;
 	padding: 0 0 0 25px;
 }
 .profile {
@@ -66,18 +71,23 @@ body {
 .name {
 }
 .contacts {
+	padding: 0 20px;
 }
 .skills {
+	padding: 0 20px;
 }
 .languages {
+	padding: 0 20px;
 }
 .languages-content {
 }
 .column-right {
-	flex: 0 1 60%;
+	flex-basis: auto;
 	padding: 0 0 0 25px;
+	margin: 0 auto;
 }
-.summary {
+.summary p {
+	flex-wrap: wrap;
 }
 .education {
 }
@@ -96,6 +106,7 @@ body {
 }
 
 .footer .container {
+	background-color: #C9F76F;
 	border-top: 1px solid #8B4513;
 }
 
@@ -107,7 +118,7 @@ body {
 .footer-row-logo {
 }
 .footer-row-logo img {
-	width: 30px;
+	width: 100px;
 }
 .footer-row-text {
 }
