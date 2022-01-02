@@ -1,0 +1,171 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0px none;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth; 
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	line-height: 1.5;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+
+
+#contacts:target, #skills:target, #languages:target, #summary:target, #education:target, #experience:target, #code:target {
+	color: #009999;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+.header {
+	flex: 0 0 auto;
+	
+}
+.header .container {
+	background-color: #C9F76F;
+	border-bottom: 1px solid #8B4513;
+}
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.nav-list {
+	display: flex;
+	justify-content: flex-end;
+}
+.nav-item {
+	margin: 25px 0 25px 25px;
+	list-style: none;
+}
+
+.nav-item:last-child {
+	margin: 25px;
+}
+
+.nav-link {
+	color: #2F4F4F;
+	text-decoration: none;
+}
+
+.nav-link:hover {
+	text-decoration: underline;
+}
+
+.nav-link:active {
+	color: chocolate;
+}
+
+.columns {
+	display: flex;
+
+}
+.column-left {
+	
+	flex-basis: auto;
+	background-color: #C9F76F;
+	padding: 0 20px 0 20px;
+}
+
+.profile {
+	text-align: center;
+	padding: 0 0 20px 0;
+}
+
+.cv-photo img { width: 250px;
+	
+}
+
+.contacts {
+	padding: 0 20px 20px;
+}
+
+.skills {
+	padding: 0 20px 20px;
+}
+
+.languages {
+	padding: 0 20px 20px;
+}
+
+.languages-content {
+}
+
+.column-right {
+	flex-basis: auto;
+	padding: 0 25px 0 45px;
+	margin: 0 auto;
+}
+
+.summary h2 {
+	margin: 20px 20px 10px;
+}
+
+.summary p {
+	flex-wrap: wrap;
+}
+
+.education h2 {
+	margin: 20px 20px 10px;
+}
+
+
+.experience h2 {
+	margin: 20px 20px 10px;
+}
+
+.code h2 {
+	margin: 20px 20px 10px;
+}
+
+pre {
+	white-space: nowrap;
+}
+
+.footer {
+	flex: 0 0 auto;
+}
+
+.footer .container {
+	background-color: #C9F76F;
+	border-top: 1px solid #8B4513;
+}
+
+.footer-row {
+	display: flex;
+	justify-content: space-between;
+	padding: 25px;
+	align-items: center;
+}
+
+.footer-row-logo img {
+	width: 100px;
+}
+
+.footer-row-link a {
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+
+.footer-row-link img {
+	width: 50px;
+}
