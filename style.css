@@ -15,6 +15,20 @@ body {
 	line-height: 1.5;
 }
 
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+
+
+#contacts:target, #skills:target, #languages:target, #summary:target, #education:target, #experience:target, #code:target {
+	color: #009999;
+}
+
 .wrapper {
 	min-height: 100%;
 	overflow: hidden;
@@ -50,6 +64,14 @@ body {
 .nav-link {
 	color: #2F4F4F;
 	text-decoration: none;
+}
+
+.nav-link:hover {
+	text-decoration: underline;
+}
+
+.nav-link:active {
+	color: chocolate;
 }
 
 .columns {
@@ -93,7 +115,7 @@ body {
 	margin: 0 auto;
 }
 
-.summary h3 {
+.summary h2 {
 	margin: 20px 20px 10px;
 }
 
@@ -101,16 +123,16 @@ body {
 	flex-wrap: wrap;
 }
 
-.education h3 {
+.education h2 {
 	margin: 20px 20px 10px;
 }
 
 
-.experience h3 {
+.experience h2 {
 	margin: 20px 20px 10px;
 }
 
-.code h3 {
+.code h2 {
 	margin: 20px 20px 10px;
 }
 
